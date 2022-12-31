@@ -1,5 +1,5 @@
 # VS_Clone
-Created VS clone website clone with HTML and Tailwind CSS
+Created clone of VS Code website using HTML and Tailwind CSS
 
 **Here's how it looks**
 
