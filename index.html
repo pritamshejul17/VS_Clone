@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VS-Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-zinc-800">
+    <nav class="flex sticky justify-around mx-20 ">
+        <div class="p-2"><img src="./Images/vs-logo.PNG" alt="logo"></div>
+        <ul class="flex flex-1 items-center text-gray-400 text-base font-medium">
+            <a href="#" class="ml-6 hover:text-white">Docs</a>
+            <a href="#" class="ml-6 hover:text-white">Updates</a>
+            <a href="#" class="ml-6 hover:text-white">Blog</a>
+            <a href="#" class="ml-6 hover:text-white">API</a>
+            <a href="#" class="ml-6 hover:text-white">Extensions</a>
+            <a href="#" class="ml-6 hover:text-white">FAQ</a>
+            <a href="#" class="ml-6 hover:text-white">Learn</a>
+        </ul>
+        <ul class="flex w-80">
+            <input type="search" name="search" class="w-full h-full text-white bg-zinc-700 text-center" placeholder="Search Docs" id="">
+            <button class="w-3/4 h-full text-white bg-sky-700 text-l">Download</button>
+        </ul>
+    </nav>
+
+    <div class="flex justify-center p-3 bg-neutral-700">
+        <a href="#" class="text-sky-600">Version 1.74</a><p class="inline text-white text-md ml-2"> is now available! Read about the new features and fixes from November.</p>
+    </div>
+
+    <main class="flex p-6">
+        <div class="flex flex-col w-1/3 h-3/5 ml-8 mt-12">
+            <p class="text-white text-5xl text-center">Code Editing. <br>Redefined.</p>
+            <!-- <p class="text-white text-5xl self-center">Redefined.</p> -->
+            <p class="text-gray-400 self-center mt-4 mb-6 text-lg">Free. Built on open source. Runs everywhere.</p>
+            <button class="text-white bg-sky-700 p-3 w-3/5 self-center"><p class="text-xl">Download For Windows</p> <p class="text-sm font-thin">Stable build</p></button>
+            <p class="text-gray-400 self-center text-sm mt-4">By using VS Code, you agree to its</p>
+            <a href="#" class="text-sky-700 self-center text-sm">license and privacy statement.</a>
+        </div>
+        <div class="flex pl-25 ml-5 py-6">
+            <img src="./Images/Editor_Image (2).PNG" class="w-5/6" alt="Editor">
+        </div>
+    </main>
+
+    <ul class="flex justify-center p-6 space-x-20 bg-white">
+        <a href="#"><li><img src="./Images/Intellisense.PNG" alt=""></li></a>
+        <a href="#"><li><img src="./Images/Run_and-debug.PNG" alt=""></li></a>
+        <a href="#"><li><img src="./Images/Built_in_git.PNG" alt=""></li></a>
+        <a href="#"><li><img src="./Images/Extensions.PNG" alt=""></li></a>
+    </ul>
+
+    <div class="flex bg-gray-200 px-20 py-20 justify-center">
+        <div class="flex">
+            <img class="h-20 w-20 rounded-full p-1" src="./Images/profile_1.jpg">
+            <div class="flex flex-col">
+                <p class="text-xs text-slate-600"><a href="#" class="font-bold text-black text-base">Una Kravets </a>@Una</p>
+                <p class="text-slate-600">VS @code does so many things right. I’m constantly impressed by the UX, and customizing workspace / user preferences is no exception. 🙌🏼💯 It just keeps getting better ❤️</p>
+            </div>
+        </div> 
+        
+        <div class="flex">
+            <img class="h-20 w-20 rounded-full p-1" src="./Images/profile_2.jpg">
+            <div class="flex flex-col">
+                <p class="text-xs text-slate-600"><a href="#" class="font-bold text-black text-base">Jonathan Dunlap </a>@jadbox</p>
+                <p class="text-slate-600">VS Code will have deep remote development. You can connect to a container running a different OS and use any VS Code plugins, linting, debugging for that environment. 🔥🔥🔥</p>
+            </div>
+        </div>
+
+        <div class="flex">
+            <img class="h-20 w-20 rounded-full p-1" src="./Images/profile_3.jpg">
+            <div class="flex flex-col">
+                <p class="text-xs text-slate-600"><a href="#" class="font-bold text-black text-base">Una Kravets </a>@Una</p>
+                <p class="text-slate-600">VS Code is my most used and favorite editor. I love being able to customize the editor - changing the layout, the icons, fonts and color scheme is so easy!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex justify-around p-20 bg-white">
+        <div class="" > 
+            <img src="./Images/Meet.svg" class="" alt="">
+        </div>
+
+        <div class="p-4 text-gray-600">
+            <h1 class="text-4xl">Meet Intellisense</h1>
+            <p class=" p-8 text-xl">Go beyond syntax highlighting and autocomplete with IntelliSense, which <br> provides smart completions based on variable types, function definitions, and <br> imported modules</p>
+        </div>
+    </div>
+
+    <div class="flex justify-around p-20 bg-zinc-200">
+        <div class="p-4 text-gray-500">
+            <h1 class="text-4xl">Print statement debugging is a thing of the past.</h1>
+            <p class=" p-8 text-xl">Debug code right from the editor. Launch or attach to your running apps <br> and debug with break points, call stacks, and an interactive console.</p>
+        </div>
+        <div class="" > 
+            <img src="./Images/Meet1.svg" class="" alt="">
+        </div>
+    </div>
+
+    <div class="flex justify-around p-20 bg-white">
+        <div class="" > 
+            <img src="./Images/git.svg" class="" alt="">
+        </div>
+
+        <div class="p-4 text-gray-600">
+            <h1 class="text-4xl">Git commands built-in.</h1>
+            <p class=" p-8 text-xl">Working with Git and other SCM providers has never been easier. Review diffs,<br> stage files, and make commits right from the editor. Push and pull from any <br> hosted SCM service.</p>
+        </div>
+    </div>   
+    
+    <div class="flex justify-around bg-zinc-200 h-90">
+        <div class="p-10 text-gray-600">
+            <h1 class="text-4xl">Extensible and customizable</h1>
+            <p class=" p-12 text-xl">Want even more features? Install <br> extensions to add new languages, <br> themes, debuggers, and to connect <br> to additional services. Extensions run <br> in separate processes, ensuring they <br> won't slow down your editor. Learn more <br> about extensions.</p>
+        </div>
+        <div class="flex justify-center items-center" > 
+            <img src="./Images/languages.png" class="h-3/4 p-4" alt="">
+        </div>
+    </div>
+
+    <p class="text-2xl text-center text-white p-6">
+        For Education purpose!
+    </p>
+</body>
+</html>
